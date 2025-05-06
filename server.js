@@ -25,26 +25,44 @@ const readData = () => {
     return [];
   }
 };
-//Get all proverbs
+
+// Get all proverbs or filter by category
 app.get("/proverbs", (req, res) => {
   const proverbs = readData();
-  res.json(proverbs);
+  const category = req.query.category;
+
+  if (category) {
+    const filtered = proverbs.filter(
+      (p) => p.category?.toLowerCase() === category.toLowerCase()
+    );
+    if (filtered.length === 0) {
+      return res
+        .status(404)
+        .json({ message: `No proverbs found in this category.` });
+    }
+    res.json(filtered);
+  } else {
+    res.json(proverbs);
+  }
 });
 
 // Get a single proverb by ID
 app.get("/proverbs/:id", (req, res) => {
   const id = parseInt(req.params.id);
   const proverbs = readData();
-  const foundProverbs = proverbs.find((p) => p.id === id);
-  if (foundProverbs) {
-    res.json(foundProverbs);
+  const foundProverb = proverbs.find((p) => p.id === id);
+  if (foundProverb) {
+    res.json(foundProverb);
   } else {
-    res.status(404).json({ message: `we can not find this id sorry.` });
+    res
+      .status(404)
+      .json({ message: `We cannot find this proverb with the given ID.` });
   }
 });
+
 //Add a new proverb
 app.post("/proverb", (req, res) => {
-  const newProverbs = {
+  const newProverb = {
     id: Date.now(),
     textDari: req.body.textDari,
     textPashto: req.body.textPashto,
@@ -53,9 +71,9 @@ app.post("/proverb", (req, res) => {
     category: req.body.category,
   };
   const proverbs = readData();
-  proverbs.push(newProverbs);
+  proverbs.push(newProverb);
   fs.writeFileSync(dataPath, JSON.stringify(proverbs, null, 2));
-  res.status(201).json(newProverbs);
+  res.status(201).json(newProverb);
 });
 
 //Update an existing
@@ -69,7 +87,9 @@ app.put("/proverbs/:id", (req, res) => {
   );
 
   if (proverbIndex === -1) {
-    return res.status(404).json({ message: `Sorry, we can't find it.` });
+    return res
+      .status(404)
+      .json({ message: `Sorry, we can't find this proverb.` });
   }
 
   proverbs[proverbIndex] = { ...proverbs[proverbIndex], ...updatedProverb }; //spread operator😁
