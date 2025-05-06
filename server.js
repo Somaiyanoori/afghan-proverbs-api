@@ -26,14 +26,15 @@ const readData = () => {
   }
 };
 
-// Get all proverbs or filter by category or keyword
-
-app.get("/proverbs", (req, res) => {
+//  Get a random proverb, optionally filtered by category or keyword
+app.get("/proverbs/random", (req, res) => {
   const proverbs = readData();
   const { category, keyword } = req.query;
 
+  let filtered = proverbs;
+
   if (category || keyword) {
-    const filteredProverbs = proverbs.filter((p) => {
+    filtered = proverbs.filter((p) => {
       const categories = Array.isArray(p.category) ? p.category : [p.category];
 
       const matchesCategory = category
@@ -48,15 +49,15 @@ app.get("/proverbs", (req, res) => {
 
       return matchesCategory && matchesKeyword;
     });
-
-    if (filteredProverbs.length === 0) {
-      return res.status(404).json({ message: `No proverbs found.` });
-    }
-
-    return res.json(filteredProverbs);
-  } else {
-    res.json(proverbs);
   }
+
+  if (filtered.length === 0) {
+    return res.status(404).json({ message: "No matching proverbs found." });
+  }
+
+  const randomIndex = Math.floor(Math.random() * filtered.length);
+  const randomProverb = filtered[randomIndex];
+  res.json(randomProverb);
 });
 
 // Get a single proverb by ID
