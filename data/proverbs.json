@@ -1,0 +1,336 @@
+[
+  {
+    "id": 1,
+    "textDari": "کار امروز را به فردا مگذار.",
+    "textPashto": "د نن کار سبا ته مه پرېږده.",
+    "translationEn": "Don't leave today's work for tomorrow.",
+    "meaning": "Encourages completing tasks promptly and avoiding procrastination.",
+    "category": "advice"
+  },
+  {
+    "id": 2,
+    "textDari": "دروغ‌گو حافظه ندارد.",
+    "textPashto": "دروغجن حافظه نه لري.",
+    "translationEn": "A liar has no memory.",
+    "meaning": "Lying leads to inconsistency because lies are hard to keep track of.",
+    "category": "morality"
+  },
+  {
+    "id": 3,
+    "textDari": "با یک گل بهار نمی‌شود.",
+    "textPashto": "په یوه ګل نه پسرلی کېږي.",
+    "translationEn": "One flower doesn’t bring spring.",
+    "meaning": "One small success does not guarantee full achievement.",
+    "category": "wisdom"
+  },
+  {
+    "id": 4,
+    "textDari": "هر که طاووس خواهد جور هندوستان کشد.",
+    "textPashto": "چا ته چې طاووس خوښ وي، د هند سفر به زغمي.",
+    "translationEn": "Whoever wants a peacock must endure the journey to India.",
+    "meaning": "Great rewards require great effort.",
+    "category": "wisdom"
+  },
+  {
+    "id": 5,
+    "textDari": "چراغی را که به خانه رواست به مسجد حرام است.",
+    "textPashto": "چراغ چې کور ته اړین وي، جومات ته ناروا دی.",
+    "translationEn": "A lamp needed at home is forbidden to be donated to the mosque.",
+    "meaning": "Take care of your own needs before helping others.",
+    "category": "advice"
+  },
+  {
+    "id": 6,
+    "textDari": "کار امروز را به فردا مگذار",
+    "textPashto": "د نن کار سبا ته مه پرېږده. (6)",
+    "translationEn": "Don't leave today's work for tomorrow. (version 6)",
+    "meaning": "Encourages completing tasks promptly and avoiding procrastination. This is variation number 6.",
+    "category": "advice"
+  },
+  {
+    "id": 7,
+    "textDari": "دروغ‌گو حافظه ندارد. (7)",
+    "textPashto": "دروغجن حافظه نه لري. (7)",
+    "translationEn": "A liar has no memory. (version 7)",
+    "meaning": "Lying leads to inconsistency because lies are hard to keep track of. This is variation number 7.",
+    "category": "morality"
+  },
+  {
+    "id": 8,
+    "textDari": "با یک گل بهار نمی‌شود. (8)",
+    "textPashto": "په یوه ګل نه پسرلی کېږي. (8)",
+    "translationEn": "One flower doesn’t bring spring. (version 8)",
+    "meaning": "One small success does not guarantee full achievement. This is variation number 8.",
+    "category": "wisdom"
+  },
+  {
+    "id": 9,
+    "textDari": "هر که طاووس خواهد جور هندوستان کشد. (9)",
+    "textPashto": "چا ته چې طاووس خوښ وي، د هند سفر به زغمي. (9)",
+    "translationEn": "Whoever wants a peacock must endure the journey to India. (version 9)",
+    "meaning": "Great rewards require great effort. This is variation number 9.",
+    "category": "wisdom"
+  },
+  {
+    "id": 10,
+    "textDari": "چراغی را که به خانه رواست به مسجد حرام است. (10)",
+    "textPashto": "چراغ چې کور ته اړین وي، جومات ته ناروا دی. (10)",
+    "translationEn": "A lamp needed at home is forbidden to be donated to the mosque. (version 10)",
+    "meaning": "Take care of your own needs before helping others. This is variation number 10.",
+    "category": "advice"
+  },
+  {
+    "id": 11,
+    "textDari": "کار امروز را به فردا مگذار. (11)",
+    "textPashto": "د نن کار سبا ته مه پرېږده. (11)",
+    "translationEn": "Don't leave today's work for tomorrow. (version 11)",
+    "meaning": "Encourages completing tasks promptly and avoiding procrastination. This is variation number 11.",
+    "category": "advice"
+  },
+  {
+    "id": 12,
+    "textDari": "دروغ‌گو حافظه ندارد. (12)",
+    "textPashto": "دروغجن حافظه نه لري. (12)",
+    "translationEn": "A liar has no memory. (version 12)",
+    "meaning": "Lying leads to inconsistency because lies are hard to keep track of. This is variation number 12.",
+    "category": "morality"
+  },
+  {
+    "id": 13,
+    "textDari": "با یک گل بهار نمی‌شود. (13)",
+    "textPashto": "په یوه ګل نه پسرلی کېږي. (13)",
+    "translationEn": "One flower doesn’t bring spring. (version 13)",
+    "meaning": "One small success does not guarantee full achievement. This is variation number 13.",
+    "category": "wisdom"
+  },
+  {
+    "id": 14,
+    "textDari": "هر که طاووس خواهد جور هندوستان کشد. (14)",
+    "textPashto": "چا ته چې طاووس خوښ وي، د هند سفر به زغمي. (14)",
+    "translationEn": "Whoever wants a peacock must endure the journey to India. (version 14)",
+    "meaning": "Great rewards require great effort. This is variation number 14.",
+    "category": "wisdom"
+  },
+  {
+    "id": 15,
+    "textDari": "چراغی را که به خانه رواست به مسجد حرام است. (15)",
+    "textPashto": "چراغ چې کور ته اړین وي، جومات ته ناروا دی. (15)",
+    "translationEn": "A lamp needed at home is forbidden to be donated to the mosque. (version 15)",
+    "meaning": "Take care of your own needs before helping others. This is variation number 15.",
+    "category": "advice"
+  },
+  {
+    "id": 16,
+    "textDari": "کار امروز را به فردا مگذار. (16)",
+    "textPashto": "د نن کار سبا ته مه پرېږده. (16)",
+    "translationEn": "Don't leave today's work for tomorrow. (version 16)",
+    "meaning": "Encourages completing tasks promptly and avoiding procrastination. This is variation number 16.",
+    "category": "advice"
+  },
+  {
+    "id": 17,
+    "textDari": "دروغ‌گو حافظه ندارد. (17)",
+    "textPashto": "دروغجن حافظه نه لري. (17)",
+    "translationEn": "A liar has no memory. (version 17)",
+    "meaning": "Lying leads to inconsistency because lies are hard to keep track of. This is variation number 17.",
+    "category": "morality"
+  },
+  {
+    "id": 18,
+    "textDari": "با یک گل بهار نمی‌شود. (18)",
+    "textPashto": "په یوه ګل نه پسرلی کېږي. (18)",
+    "translationEn": "One flower doesn’t bring spring. (version 18)",
+    "meaning": "One small success does not guarantee full achievement. This is variation number 18.",
+    "category": "wisdom"
+  },
+  {
+    "id": 19,
+    "textDari": "هر که طاووس خواهد جور هندوستان کشد. (19)",
+    "textPashto": "چا ته چې طاووس خوښ وي، د هند سفر به زغمي. (19)",
+    "translationEn": "Whoever wants a peacock must endure the journey to India. (version 19)",
+    "meaning": "Great rewards require great effort. This is variation number 19.",
+    "category": "wisdom"
+  },
+  {
+    "id": 20,
+    "textDari": "چراغی را که به خانه رواست به مسجد حرام است. (20)",
+    "textPashto": "چراغ چې کور ته اړین وي، جومات ته ناروا دی. (20)",
+    "translationEn": "A lamp needed at home is forbidden to be donated to the mosque. (version 20)",
+    "meaning": "Take care of your own needs before helping others. This is variation number 20.",
+    "category": "advice"
+  },
+  {
+    "id": 21,
+    "textDari": "کار امروز را به فردا مگذار. (21)",
+    "textPashto": "د نن کار سبا ته مه پرېږده. (21)",
+    "translationEn": "Don't leave today's work for tomorrow. (version 21)",
+    "meaning": "Encourages completing tasks promptly and avoiding procrastination. This is variation number 21.",
+    "category": "advice"
+  },
+  {
+    "id": 22,
+    "textDari": "دروغ‌گو حافظه ندارد. (22)",
+    "textPashto": "دروغجن حافظه نه لري. (22)",
+    "translationEn": "A liar has no memory. (version 22)",
+    "meaning": "Lying leads to inconsistency because lies are hard to keep track of. This is variation number 22.",
+    "category": "morality"
+  },
+  {
+    "id": 23,
+    "textDari": "با یک گل بهار نمی‌شود. (23)",
+    "textPashto": "په یوه ګل نه پسرلی کېږي. (23)",
+    "translationEn": "One flower doesn’t bring spring. (version 23)",
+    "meaning": "One small success does not guarantee full achievement. This is variation number 23.",
+    "category": "wisdom"
+  },
+  {
+    "id": 24,
+    "textDari": "هر که طاووس خواهد جور هندوستان کشد. (24)",
+    "textPashto": "چا ته چې طاووس خوښ وي، د هند سفر به زغمي. (24)",
+    "translationEn": "Whoever wants a peacock must endure the journey to India. (version 24)",
+    "meaning": "Great rewards require great effort. This is variation number 24.",
+    "category": "wisdom"
+  },
+  {
+    "id": 25,
+    "textDari": "چراغی را که به خانه رواست به مسجد حرام است. (25)",
+    "textPashto": "چراغ چې کور ته اړین وي، جومات ته ناروا دی. (25)",
+    "translationEn": "A lamp needed at home is forbidden to be donated to the mosque. (version 25)",
+    "meaning": "Take care of your own needs before helping others. This is variation number 25.",
+    "category": "advice"
+  },
+  {
+    "id": 26,
+    "textDari": "کار امروز را به فردا مگذار. (26)",
+    "textPashto": "د نن کار سبا ته مه پرېږده. (26)",
+    "translationEn": "Don't leave today's work for tomorrow. (version 26)",
+    "meaning": "Encourages completing tasks promptly and avoiding procrastination. This is variation number 26.",
+    "category": "advice"
+  },
+  {
+    "id": 27,
+    "textDari": "دروغ‌گو حافظه ندارد. (27)",
+    "textPashto": "دروغجن حافظه نه لري. (27)",
+    "translationEn": "A liar has no memory. (version 27)",
+    "meaning": "Lying leads to inconsistency because lies are hard to keep track of. This is variation number 27.",
+    "category": "morality"
+  },
+  {
+    "id": 28,
+    "textDari": "با یک گل بهار نمی‌شود. (28)",
+    "textPashto": "په یوه ګل نه پسرلی کېږي. (28)",
+    "translationEn": "One flower doesn’t bring spring. (version 28)",
+    "meaning": "One small success does not guarantee full achievement. This is variation number 28.",
+    "category": "wisdom"
+  },
+  {
+    "id": 29,
+    "textDari": "هر که طاووس خواهد جور هندوستان کشد. (29)",
+    "textPashto": "چا ته چې طاووس خوښ وي، د هند سفر به زغمي. (29)",
+    "translationEn": "Whoever wants a peacock must endure the journey to India. (version 29)",
+    "meaning": "Great rewards require great effort. This is variation number 29.",
+    "category": "wisdom"
+  },
+  {
+    "id": 30,
+    "textDari": "چراغی را که به خانه رواست به مسجد حرام است. (30)",
+    "textPashto": "چراغ چې کور ته اړین وي، جومات ته ناروا دی. (30)",
+    "translationEn": "A lamp needed at home is forbidden to be donated to the mosque. (version 30)",
+    "meaning": "Take care of your own needs before helping others. This is variation number 30.",
+    "category": "advice"
+  },
+  {
+    "id": 31,
+    "textDari": "کار امروز را به فردا مگذار. (31)",
+    "textPashto": "د نن کار سبا ته مه پرېږده. (31)",
+    "translationEn": "Don't leave today's work for tomorrow. (version 31)",
+    "meaning": "Encourages completing tasks promptly and avoiding procrastination. This is variation number 31.",
+    "category": "advice"
+  },
+  {
+    "id": 32,
+    "textDari": "دروغ‌گو حافظه ندارد. (32)",
+    "textPashto": "دروغجن حافظه نه لري. (32)",
+    "translationEn": "A liar has no memory. (version 32)",
+    "meaning": "Lying leads to inconsistency because lies are hard to keep track of. This is variation number 32.",
+    "category": "morality"
+  },
+  {
+    "id": 33,
+    "textDari": "با یک گل بهار نمی‌شود. (33)",
+    "textPashto": "په یوه ګل نه پسرلی کېږي. (33)",
+    "translationEn": "One flower doesn’t bring spring. (version 33)",
+    "meaning": "One small success does not guarantee full achievement. This is variation number 33.",
+    "category": "wisdom"
+  },
+  {
+    "id": 34,
+    "textDari": "هر که طاووس خواهد جور هندوستان کشد. (34)",
+    "textPashto": "چا ته چې طاووس خوښ وي، د هند سفر به زغمي. (34)",
+    "translationEn": "Whoever wants a peacock must endure the journey to India. (version 34)",
+    "meaning": "Great rewards require great effort. This is variation number 34.",
+    "category": "wisdom"
+  },
+  {
+    "id": 35,
+    "textDari": "چراغی را که به خانه رواست به مسجد حرام است. (35)",
+    "textPashto": "چراغ چې کور ته اړین وي، جومات ته ناروا دی. (35)",
+    "translationEn": "A lamp needed at home is forbidden to be donated to the mosque. (version 35)",
+    "meaning": "Take care of your own needs before helping others. This is variation number 35.",
+    "category": "advice"
+  },
+  {
+    "id": 36,
+    "textDari": "کار امروز را به فردا مگذار. (36)",
+    "textPashto": "د نن کار سبا ته مه پرېږده. (36)",
+    "translationEn": "Don't leave today's work for tomorrow. (version 36)",
+    "meaning": "Encourages completing tasks promptly and avoiding procrastination. This is variation number 36.",
+    "category": "advice"
+  },
+  {
+    "id": 37,
+    "textDari": "دروغ‌گو حافظه ندارد. (37)",
+    "textPashto": "دروغجن حافظه نه لري. (37)",
+    "translationEn": "A liar has no memory. (version 37)",
+    "meaning": "Lying leads to inconsistency because lies are hard to keep track of. This is variation number 37.",
+    "category": "morality"
+  },
+  {
+    "id": 38,
+    "textDari": "با یک گل بهار نمی‌شود. (38)",
+    "textPashto": "په یوه ګل نه پسرلی کېږي. (38)",
+    "translationEn": "One flower doesn’t bring spring. (version 38)",
+    "meaning": "One small success does not guarantee full achievement. This is variation number 38.",
+    "category": "wisdom"
+  },
+  {
+    "id": 39,
+    "textDari": "هر که طاووس خواهد جور هندوستان کشد. (39)",
+    "textPashto": "چا ته چې طاووس خوښ وي، د هند سفر به زغمي. (39)",
+    "translationEn": "Whoever wants a peacock must endure the journey to India. (version 39)",
+    "meaning": "Great rewards require great effort. This is variation number 39.",
+    "category": "wisdom"
+  },
+  {
+    "id": 40,
+    "textDari": "چراغی را که به خانه رواست به مسجد حرام است. (40)",
+    "textPashto": "چراغ چې کور ته اړین وي، جومات ته ناروا دی. (40)",
+    "translationEn": "A lamp needed at home is forbidden to be donated to the mosque. (version 40)",
+    "meaning": "Take care of your own needs before helping others. This is variation number 40.",
+    "category": "advice"
+  },
+  {
+    "id": 1746535455159,
+    "textDari": "ز گهواره تا گور دانش بجوی",
+    "textPashto": "له زانګو تر ګورې زده کړه وکړه",
+    "meaning": "Always keep learning, no matter your age.",
+    "category": "wisdom"
+  },
+  {
+    "id": 1746535466785,
+    "textDari": "ز گهواره تا گور دانش بجوی",
+    "textPashto": "له زانګو تر ګورې زده کړه وکړه",
+    "meaning": "Always keep learning, no matter your age.",
+    "category": "wisdom"
+  }
+]
