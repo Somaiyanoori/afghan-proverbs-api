@@ -25,10 +25,22 @@ const readData = () => {
     return [];
   }
 };
-//All data
+//Get all proverbs
 app.get("/proverbs", (req, res) => {
   const proverbs = readData();
   res.json(proverbs);
+});
+
+// Get a single proverb by ID
+app.get("/proverbs/:id", (req, res) => {
+  const id = parseInt(req.body.id);
+  const proverbs = readData();
+  const foundProverbs = proverbs.find((p) => p.id === id);
+  if (foundProverbs) {
+    res.json(foundProverbs);
+  } else {
+    res.status(404).json({ message: `we can not find this id sorry.` });
+  }
 });
 
 // Start server
