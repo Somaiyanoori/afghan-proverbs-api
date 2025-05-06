@@ -26,21 +26,34 @@ const readData = () => {
   }
 };
 
-// Get all proverbs or filter by category
+// Get all proverbs or filter by category or keyword
+
 app.get("/proverbs", (req, res) => {
   const proverbs = readData();
-  const category = req.query.category;
+  const { category, keyword } = req.query;
 
-  if (category) {
-    const filtered = proverbs.filter(
-      (p) => p.category?.toLowerCase() === category.toLowerCase()
-    );
-    if (filtered.length === 0) {
-      return res
-        .status(404)
-        .json({ message: `No proverbs found in this category.` });
+  if (category || keyword) {
+    const filteredProverbs = proverbs.filter((p) => {
+      const categories = Array.isArray(p.category) ? p.category : [p.category];
+
+      const matchesCategory = category
+        ? categories.some((cat) => cat.toLowerCase() === category.toLowerCase())
+        : true;
+
+      const matchesKeyword = keyword
+        ? Object.values(p).some((value) =>
+            String(value).toLowerCase().includes(keyword.toLowerCase())
+          )
+        : true;
+
+      return matchesCategory && matchesKeyword;
+    });
+
+    if (filteredProverbs.length === 0) {
+      return res.status(404).json({ message: `No proverbs found.` });
     }
-    res.json(filtered);
+
+    return res.json(filteredProverbs);
   } else {
     res.json(proverbs);
   }
