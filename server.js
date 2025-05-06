@@ -72,9 +72,24 @@ app.put("/proverbs/:id", (req, res) => {
     return res.status(404).json({ message: `Sorry, we can't find it.` });
   }
 
-  proverbs[proverbIndex] = { ...proverbs[proverbIndex], ...updatedProverb };
+  proverbs[proverbIndex] = { ...proverbs[proverbIndex], ...updatedProverb }; //spread operator😁
   fs.writeFileSync(dataPath, JSON.stringify(proverbs, null, 2));
   res.status(200).json(proverbs[proverbIndex]);
+});
+
+//Delete a proverb
+app.delete("/proverbs/:id", (req, res) => {
+  const id = parseInt(req.params.id);
+  const proverbs = readData();
+  const index = proverbs.findIndex((p) => p.id === id);
+
+  if (index === -1) {
+    return res.status(404).json({ message: "Proverb not found." });
+  }
+
+  proverbs.splice(index, 1);
+  fs.writeFileSync(dataPath, JSON.stringify(proverbs, null, 2));
+  res.status(200).json({ message: "Proverb deleted successfully." });
 });
 
 // Start server
