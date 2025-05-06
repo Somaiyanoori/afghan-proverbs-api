@@ -1,11 +1,12 @@
 [
   {
     "id": 1,
-    "textDari": "کار امروز را به فردا مگذار.",
-    "textPashto": "د نن کار سبا ته مه پرېږده.",
+    "textDari": "ضرب‌المثل ویرایش‌شده به زبان دری",
+    "textPashto": "ویرایش‌شده به زبان پشتو",
     "translationEn": "Don't leave today's work for tomorrow.",
-    "meaning": "Encourages completing tasks promptly and avoiding procrastination.",
-    "category": "advice"
+    "meaning": "Updated meaning",
+    "category": "Wisdom",
+    "textEnglish": "Updated proverb in English"
   },
   {
     "id": 2,

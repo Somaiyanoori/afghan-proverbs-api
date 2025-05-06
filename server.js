@@ -58,6 +58,25 @@ app.post("/proverb", (req, res) => {
   res.status(201).json(newProverbs);
 });
 
+//Update an existing
+app.put("/proverbs/:id", (req, res) => {
+  const proverbId = parseInt(req.params.id);
+  const updatedProverb = req.body;
+
+  const proverbs = readData();
+  const proverbIndex = proverbs.findIndex(
+    (proverb) => proverb.id === proverbId
+  );
+
+  if (proverbIndex === -1) {
+    return res.status(404).json({ message: `Sorry, we can't find it.` });
+  }
+
+  proverbs[proverbIndex] = { ...proverbs[proverbIndex], ...updatedProverb };
+  fs.writeFileSync(dataPath, JSON.stringify(proverbs, null, 2));
+  res.status(200).json(proverbs[proverbIndex]);
+});
+
 // Start server
 app.listen(PORT, () => {
   console.log(`Server is running on port: ${PORT}`);
