@@ -33,7 +33,7 @@ app.get("/proverbs", (req, res) => {
 
 // Get a single proverb by ID
 app.get("/proverbs/:id", (req, res) => {
-  const id = parseInt(req.body.id);
+  const id = parseInt(req.params.id);
   const proverbs = readData();
   const foundProverbs = proverbs.find((p) => p.id === id);
   if (foundProverbs) {
@@ -41,6 +41,21 @@ app.get("/proverbs/:id", (req, res) => {
   } else {
     res.status(404).json({ message: `we can not find this id sorry.` });
   }
+});
+//Add a new proverb
+app.post("/proverb", (req, res) => {
+  const newProverbs = {
+    id: Date.now(),
+    textDari: req.body.textDari,
+    textPashto: req.body.textPashto,
+    textEnglish: req.body.textEnglish,
+    meaning: req.body.meaning,
+    category: req.body.category,
+  };
+  const proverbs = readData();
+  proverbs.push(newProverbs);
+  fs.writeFileSync(dataPath, JSON.stringify(proverbs, null, 2));
+  res.status(201).json(newProverbs);
 });
 
 // Start server
